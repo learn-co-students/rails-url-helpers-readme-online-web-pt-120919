@@ -83,6 +83,7 @@ post    GET  /posts/:id(.:format)   posts#show
 These four columns tell us everything that we'll need to use the route helper
 methods. The breakdown is below:
 
+
 * **Column 1** - This column gives the prefix for the route helper methods. In
   the current application, `posts` and `post` are the prefixes for the methods
   that you can use throughout your applications. The two most popular method
